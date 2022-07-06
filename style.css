@@ -2,13 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
 .top-banner {
     background-image: url(images/donation13.jpg);
-    height:550px;
+    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .home-page {
     color: white;
     margin: auto;
@@ -16,18 +18,22 @@ body {
     padding: 10px;
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 50px;
     text-align: center;
-   
+
 }
-#st{
+
+#st {
     text-shadow: 2px 2px 8px black;
 }
+
 .emphasis {
     font-weight: 600;
 
 }
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, orangered);
@@ -37,6 +43,7 @@ h1{
     border-radius: 5px;
     white-space: nowrap;
 }
+
 .second-page {
     color: black;
     margin: auto;
@@ -44,39 +51,50 @@ h1{
     padding: 10px;
     text-align: center;
 }
-#text-size{
+
+#text-size {
     font-size: 40px;
+
 }
+
 .flexiable-container {
     display: flex;
 }
-.box-iteam{
+
+.box-iteam {
     width: 30%;
     padding-right: 3%;
+    padding-left: 3%;
     margin-right: 1%;
-    border-radius: 10px;
+    margin-left: 1%;
+    border-radius: 3px;
     background-color: whitesmoke;
     color: gray;
-    font-size: 1px;
+    inline-size: 100px;
 }
-#add-bg{
+
+#add-bg {
     border-color: tomato;
     width: 30%;
     padding-right: 3%;
+    padding-left: 3%;
     margin-right: 1%;
-    border-radius: 10px;
+    margin-left: 1%;
+    border-radius: 3px;
     background-color: rgba(255, 182, 188, 0.418);
     color: tomato;
     border-style: solid;
     border-color: coral;
+    inline-size: 100px;
 }
-.end-of-second-section{
-    color: gray;
+
+.end-of-second-section {
+    color: rgba(128, 128, 128, 0.731);
     text-align: center;
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 30px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.731);
 }
